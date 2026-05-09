@@ -1,7 +1,7 @@
 import { useState } from "react";
 
-const API_URL     = "http://localhost:5000/api/predict";
-const RETRAIN_URL = "http://localhost:5000/api/retrain";
+const API_URL     = "https://inventory-predictor-api-webapp.onrender.com/api/predict";
+const RETRAIN_URL = "https://inventory-predictor-api-webapp.onrender.com/api/retrain";
 
 const PRODUCT_CATEGORIES = [
   "Electronics",
@@ -302,7 +302,7 @@ export default function InventoryPredictor() {
         </div>
 
         <p style={styles.footer}>
-          Flask API → http://localhost:5000/api/predict
+          Flask API → https://inventory-predictor-api-webapp.onrender.com/api/predict
         </p>
       </div>
     </div>
