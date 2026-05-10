@@ -152,7 +152,7 @@ const styles = {
     fontSize: "13px",
     color: "#dc2626",
   },
-  footer: { marginTop: "16px", textAlign: "center", fontSize: "11px", color: "#64748b" },
+  footer: { marginTop: "16px", textAlign: "center", fontSize: "13px", color: "#64748b" },
 };
 
 export default function InventoryPredictor() {
